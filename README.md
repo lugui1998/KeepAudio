@@ -1,17 +1,13 @@
-# KeepAudio — Headless USB Audio Keep‑Alive (Windows)
+# KeepAudio — Keep‑Alive Audio device for Windows
 
-KeepAudio is a Windows program that prevents certain audio interfaces/DACs from power‑gating (and "popping") between sounds.  
-Itcontinuously play a inaudible tone (default: **1 Hz at −100 dBFS**) to keep the device’s output path alive.  
+KeepAudio prevents certain audio interfaces/DACs from power‑gating (and "popping") between sounds.  
+It continuously play a inaudible tone (default: **1 Hz at −100 dBFS**) to keep the device’s output path alive.  
 The app is **headless** when run at logon and uses negligible CPU.
-
----
 
 ## Why this exists
 
 Many low‑cost USB audio devices cut power to their analog stages when the OS stops streaming audio, causing an audible pop when audio resumes. By keeping a constant, ultra‑low‑level stream open, the device stays awake and avoids that pop.
 This also works for preventing bluetooth devices from entering low power mode and avoids the small cut in the audio when it comes back to operation.
-
----
 
 ## Features
 
