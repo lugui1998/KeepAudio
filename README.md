@@ -1,5 +1,3 @@
-# KeepAudio — Keep‑Alive Audio device for Windows
-
 KeepAudio prevents certain audio interfaces/DACs from power‑gating (and "popping") between sounds.  
 It continuously play a inaudible tone (default: **1 Hz at −100 dBFS**) to keep the device’s output path alive.  
 The app is **headless** when run at logon and uses negligible CPU.
