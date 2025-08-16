@@ -118,7 +118,6 @@ This copies to `%LOCALAPPDATA%\KeepAudio\keepaudio.exe` and registers that path 
 
 - **Run the exact command from the Run key:**
   - Open `regedit` → `HKCU\Software\Microsoft\Windows\CurrentVersion\Run` → copy the command line for your entry → paste into `Win + R` and press Enter.
----
 
 ## Build from source
 
