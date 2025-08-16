@@ -120,3 +120,6 @@ This copies to `%LOCALAPPDATA%\KeepAudio\keepaudio.exe` and registers that path 
 ```bash
 gcc -O2 keepaudio_headless.c -lwinmm -o keepaudio.exe -mwindows
 ```
+
+---
+This was mostly made with AI. I have reviewed the code and tested, however I couldn't afford more than 30 minutes of my time to bodge a fix this petty audio issue..
