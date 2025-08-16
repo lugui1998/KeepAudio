@@ -63,7 +63,7 @@ This copies to `%LOCALAPPDATA%\KeepAudio\keepaudio.exe` and registers that path 
 
 ---
 
-## Running manually (without autostart)
+## Running manually 
 
 ```powershell
 # Default: 1 Hz at -100 dBFS, float32 if available, headless unless --console is passed
@@ -83,15 +83,11 @@ This copies to `%LOCALAPPDATA%\KeepAudio\keepaudio.exe` and registers that path 
 .\keepaudio.exe --format pcm16
 ```
 
----
-
 ## Blind test (`--chance`)
 
 ```powershell
 .\keepaudio.exe --console --chance 50
 ```
-
----
 
 ## Command-line reference
 
