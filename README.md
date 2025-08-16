@@ -31,7 +31,7 @@ You can run KeepAudio without building anything. The repository includes a compi
 ### 1) Clone to any folder
 
 ```powershell
-git clone https://github.com/your-account/keepaudio.git
+git clone https://github.com/lugui1998/KeepAudio.git
 cd keepaudio
 ```
 
